@@ -75,12 +75,8 @@ WSGI_APPLICATION = 'hockey.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'hockey',
-        'USER': 'hdb',
-        'PASSWORD': 'hdb',
-        'HOST': 'localhost',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'hdb',
     }
 }
 
